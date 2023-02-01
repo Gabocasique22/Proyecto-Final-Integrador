@@ -1,0 +1,118 @@
+
+/**aplicar a todos nuestros elementos HTML una propiedad:  */
+* {    
+    color: white;
+    width:400 ;  /* Indica (ANCHO) tamaño de los elementos <p> **/
+    
+  
+    font-family: 'Luxurious Roman', cursive; 
+    font-size: 15px; /**especifica la dimensión de la letra.**/
+ 
+    box-sizing: border-box; /**Si se define el ancho de un elemento en 100 pixeles, la caja del contenido del elemento tendrá 100 pixeles*/
+  }
+  
+/**Fondo varia de color segun tamaño pantalla*/
+body {
+    background-color: rgb(2, 105, 201);
+    }
+    @media only screen and (max-width: 600px) {
+        body {
+            background-color: rgb(0, 73, 97);
+            }
+    }
+
+
+
+/** Titulos y elementos varios: p - li*/
+h1 {
+    color: aliceblue;
+    font-size: 60px;
+ }
+
+h2{
+    color: aliceblue;
+    font-size: 35px
+}
+
+h3{
+    color: aliceblue;
+    font-size: 27px
+}
+h4{
+    color: aliceblue;
+    font-size: 19px
+}
+h5 {
+    color: aliceblue;
+    font-size: 13px
+}
+
+
+
+/**Responsive Web Design*/
+  .Presentacion1 {
+    border: 1px;
+    padding: 15px;
+    width: 100%;
+    float: left;
+  }
+
+  .nav {
+    width: 100%;
+    padding:5px;
+    border: 1px solid rgb(8, 0, 0);
+    text-align: center;    /**CENTRAR*/
+  }
+  
+  section{
+    width: 45%;
+    float: left;
+    padding: 15px;
+    border: 3px solid rgb(8, 0, 0);
+}
+
+
+  .Academica-Habilidades {
+    width: 100%;   /**Tiene un ancho del ***************/
+    float: left; /**Indica que esta flotando a la izquierda.*****************/
+    padding: 15px;
+    border: 1px solid rgb(8, 0, 0);
+  }
+
+  .Experiencia {
+    width: 55%;
+    float: right;
+    padding: 100px;
+    border: 3px solid rgb(8, 0, 0);
+  }
+
+.Intereses{
+    width: 100%;
+    float: right;
+    padding: 100px;
+    border: 3px solid rgb(8, 0, 0);
+  }
+
+
+
+  /** ANCLAS */
+.nav-enlace{
+    display: inline-block;
+    background-color: rgb(35, 9, 182);
+    color: whitesmoke;
+    padding: 10px 30px;
+    text-decoration: none; /**Quitamos la decoración del texto*/
+  }
+
+  .nav-enlace:hover{
+    background: rgb(62, 163, 163);  /**Añade interactividad a mi nav*/
+  }
+nav{
+    background: rgb(8, 8, 8);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
